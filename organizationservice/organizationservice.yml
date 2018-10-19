@@ -1,5 +1,5 @@
 example.organization.property: "I AM THE DEFAULT ORGANIZATION SERVICE"
 spring.jpa.hibernate.ddl-auto=create
 spring.datasource.url=jdbc:mysql://localhost:3306/db_example
-spring.datasource.username: "springuser"
-spring.datasource.password: "{cipher}b810b839d81674510f66f18118db0c20ea5109edb7fcb7e343a965d5987162d1"
+spring.datasource.username=springuser
+spring.datasource.password={cipher}b810b839d81674510f66f18118db0c20ea5109edb7fcb7e343a965d5987162d1
